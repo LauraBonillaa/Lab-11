@@ -2,10 +2,7 @@ const render = async () => {
 	const response = await fetch('canciones.json');
   const data = await response.json();
 	// Imprimimos el resultado
-	console.log(data);
-  console.log("holi")
-
-console.log(render);
+	
   const listaCanciones = document.getElementById('productos');
   const contador = document.getElementById('contador');
   let cantidadProductos = 0;
@@ -38,4 +35,4 @@ function agregarAlCarrito() {
 }
 }
 // Llamada a la función al cargar la página
-document.addEventListener('DOMContentLoaded',render);
+document.addEventListener('DOMContentLoaded', generarContenidoTienda);
