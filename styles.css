@@ -1,0 +1,110 @@
+body {
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    
+   background-color: #aca0a0;
+    margin: 0;
+    padding: 0;
+
+}
+
+header {
+    background-color: #000000;
+    padding: 5px 0;
+    text-align: center;
+}
+.banner{
+    height: 500px;
+    width: 100%
+    
+}
+.nav{
+    background-color: #f8f8f8;
+    padding: 0px 0;
+    border-radius: 5px;
+    padding: 5px;
+    width: 200px;
+
+}
+.imagen{
+    height: 200px;
+    width: 200px;
+    border-radius: 10%;
+}
+
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    padding: 5px;
+    width: 200px;
+}
+
+select {
+    padding: 5px;
+}
+
+#productos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 100px;
+    border-radius: 10%;
+}
+
+.productosarticle {
+    border: 3px solid #ccc;
+    background-color: #ccc;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10%;
+}
+
+.productos img {
+    max-width: 100%;
+    height: auto;
+}
+
+.productos h3 {
+    margin: 10px 0;
+    text-align: center;
+}
+
+.productos p {
+    font-weight: bold;
+    color: #555;
+    text-align: center;
+}
+
+.productos a {
+    background-color: #333;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 8px;
+    cursor: pointer;
+    text-decoration: none;
+}
