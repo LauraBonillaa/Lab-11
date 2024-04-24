@@ -1,0 +1,59 @@
+{
+    "canciones": [
+      {
+        "id": 7,
+        "titulo": "Brooklyn baby",
+        "artista": "Lana del Rey",
+        "album": "Ultraviolence",
+        "duracion": "3:48",
+        "genero": "Indie",
+        "imagen": "brooklynbaby.jpg.png"
+      },
+      {
+        "id": 8,
+        "titulo": "Colmillo",
+        "artista": "Bad Bunny ft. Young Miko",
+        "album": "Nadie sabe lo que va a pasar mañana",
+        "duracion": "4:39",
+        "genero": "Reggaeton",
+        "imagen": "Colmillo.jpg.png"
+      },
+      {
+        "id": 9,
+        "titulo": "i like the way you kiss me",
+        "artista": "Artemas",
+        "album": "i like the way you kiss me ",
+        "duracion": "5:55",
+        "genero": "Alternative",
+        "imagen": "ilikethewayoukissme.jpg.png"
+      },
+      {
+        "id": 10,
+        "titulo": "Video Games",
+        "artista": "Lana del Rey",
+        "album": "Born to die",
+        "duracion": "4:18",
+        "genero": "indie",
+        "imagen": "videogame.jpg.png"
+      },
+      {
+        "id": 11,
+        "titulo": "Vivo",
+        "artista": "Gustavo Cerati",
+        "album": "Siempre es Hoy",
+        "duracion": "4:54",
+        "genero": "rock argentino",
+        "imagen": "vivo.jpg.png"
+      },
+      {
+        "id": 12,
+        "titulo": "Welcome to the black parade",
+        "artista": "My chemical romance",
+        "album": "Welcome to the black parade",
+        "duracion": "6:30",
+        "genero": "Rock",
+        "imagen": "welcometotheblackparade.jpg.png"
+      }
+    ]
+  }
+  
